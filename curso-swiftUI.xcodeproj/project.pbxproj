@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04615B0D2912125B006749F8 /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04615B0C2912125B006749F8 /* HelloWorldApp.swift */; };
+		04615B0D2912125B006749F8 /* cursoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04615B0C2912125B006749F8 /* cursoSwiftUIApp.swift */; };
 		04615B0F2912125B006749F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04615B0E2912125B006749F8 /* ContentView.swift */; };
 		04615B112912125D006749F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04615B102912125D006749F8 /* Assets.xcassets */; };
 		04615B142912125D006749F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04615B132912125D006749F8 /* Preview Assets.xcassets */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04615B092912125B006749F8 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04615B0C2912125B006749F8 /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
+		04615B092912125B006749F8 /* curso-swiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "curso-swiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04615B0C2912125B006749F8 /* cursoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cursoSwiftUIApp.swift; sourceTree = "<group>"; };
 		04615B0E2912125B006749F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04615B102912125D006749F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04615B132912125D006749F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		04615B002912125B006749F8 = {
 			isa = PBXGroup;
 			children = (
-				04615B0B2912125B006749F8 /* HelloWorld */,
+				04615B0B2912125B006749F8 /* curso-swiftUI */,
 				04615B0A2912125B006749F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,15 +49,15 @@
 		04615B0A2912125B006749F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04615B092912125B006749F8 /* HelloWorld.app */,
+				04615B092912125B006749F8 /* curso-swiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04615B0B2912125B006749F8 /* HelloWorld */ = {
+		04615B0B2912125B006749F8 /* curso-swiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				04615B0C2912125B006749F8 /* HelloWorldApp.swift */,
+				04615B0C2912125B006749F8 /* cursoSwiftUIApp.swift */,
 				04A0281D2914BA3B00119356 /* MainView.swift */,
 				04615B0E2912125B006749F8 /* ContentView.swift */,
 				04A0281B2914B4C000119356 /* MapView.swift */,
@@ -65,7 +65,7 @@
 				04615B102912125D006749F8 /* Assets.xcassets */,
 				04615B122912125D006749F8 /* Preview Content */,
 			);
-			path = HelloWorld;
+			path = "curso-swiftUI";
 			sourceTree = "<group>";
 		};
 		04615B122912125D006749F8 /* Preview Content */ = {
@@ -79,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04615B082912125B006749F8 /* HelloWorld */ = {
+		04615B082912125B006749F8 /* curso-swiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04615B172912125D006749F8 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 04615B172912125D006749F8 /* Build configuration list for PBXNativeTarget "curso-swiftUI" */;
 			buildPhases = (
 				04615B052912125B006749F8 /* Sources */,
 				04615B062912125B006749F8 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = HelloWorld;
+			name = "curso-swiftUI";
 			productName = HelloWorld;
-			productReference = 04615B092912125B006749F8 /* HelloWorld.app */;
+			productReference = 04615B092912125B006749F8 /* curso-swiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04615B042912125B006749F8 /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 04615B042912125B006749F8 /* Build configuration list for PBXProject "curso-swiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04615B082912125B006749F8 /* HelloWorld */,
+				04615B082912125B006749F8 /* curso-swiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -150,7 +150,7 @@
 				04A0281C2914B4C000119356 /* MapView.swift in Sources */,
 				04615B0F2912125B006749F8 /* ContentView.swift in Sources */,
 				04A0281E2914BA3B00119356 /* MainView.swift in Sources */,
-				04615B0D2912125B006749F8 /* HelloWorldApp.swift in Sources */,
+				04615B0D2912125B006749F8 /* cursoSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04615B042912125B006749F8 /* Build configuration list for PBXProject "HelloWorld" */ = {
+		04615B042912125B006749F8 /* Build configuration list for PBXProject "curso-swiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04615B152912125D006749F8 /* Debug */,
@@ -339,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04615B172912125D006749F8 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		04615B172912125D006749F8 /* Build configuration list for PBXNativeTarget "curso-swiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04615B182912125D006749F8 /* Debug */,
