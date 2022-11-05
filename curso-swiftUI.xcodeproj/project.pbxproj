@@ -14,6 +14,10 @@
 		04A0281C2914B4C000119356 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0281B2914B4C000119356 /* MapView.swift */; };
 		04A0281E2914BA3B00119356 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0281D2914BA3B00119356 /* MainView.swift */; };
 		04C3ABFA2913598C0048C5EF /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3ABF92913598C0048C5EF /* ImageView.swift */; };
+		04DF27E829160105007E4F09 /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF27E729160105007E4F09 /* Programmer.swift */; };
+		04DF27EA291601DA007E4F09 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF27E9291601DA007E4F09 /* RowView.swift */; };
+		04DF27EC29160342007E4F09 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF27EB29160342007E4F09 /* ListView.swift */; };
+		04DF27EE29160CE3007E4F09 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DF27ED29160CE3007E4F09 /* ListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		04A0281B2914B4C000119356 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		04A0281D2914BA3B00119356 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		04C3ABF92913598C0048C5EF /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		04DF27E729160105007E4F09 /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		04DF27E9291601DA007E4F09 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		04DF27EB29160342007E4F09 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		04DF27ED29160CE3007E4F09 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +66,8 @@
 			isa = PBXGroup;
 			children = (
 				04615B0C2912125B006749F8 /* cursoSwiftUIApp.swift */,
-				04A0281D2914BA3B00119356 /* MainView.swift */,
-				04615B0E2912125B006749F8 /* ContentView.swift */,
-				04A0281B2914B4C000119356 /* MapView.swift */,
-				04C3ABF92913598C0048C5EF /* ImageView.swift */,
+				04DF27E5291600CA007E4F09 /* data */,
+				04DF27E6291600D0007E4F09 /* views */,
 				04615B102912125D006749F8 /* Assets.xcassets */,
 				04615B122912125D006749F8 /* Preview Content */,
 			);
@@ -74,6 +80,28 @@
 				04615B132912125D006749F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04DF27E5291600CA007E4F09 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				04DF27E729160105007E4F09 /* Programmer.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		04DF27E6291600D0007E4F09 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				04A0281D2914BA3B00119356 /* MainView.swift */,
+				04615B0E2912125B006749F8 /* ContentView.swift */,
+				04A0281B2914B4C000119356 /* MapView.swift */,
+				04C3ABF92913598C0048C5EF /* ImageView.swift */,
+				04DF27E9291601DA007E4F09 /* RowView.swift */,
+				04DF27EB29160342007E4F09 /* ListView.swift */,
+				04DF27ED29160CE3007E4F09 /* ListDetailView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DF27EC29160342007E4F09 /* ListView.swift in Sources */,
 				04C3ABFA2913598C0048C5EF /* ImageView.swift in Sources */,
+				04DF27E829160105007E4F09 /* Programmer.swift in Sources */,
+				04DF27EA291601DA007E4F09 /* RowView.swift in Sources */,
 				04A0281C2914B4C000119356 /* MapView.swift in Sources */,
 				04615B0F2912125B006749F8 /* ContentView.swift in Sources */,
+				04DF27EE29160CE3007E4F09 /* ListDetailView.swift in Sources */,
 				04A0281E2914BA3B00119356 /* MainView.swift in Sources */,
 				04615B0D2912125B006749F8 /* cursoSwiftUIApp.swift in Sources */,
 			);
