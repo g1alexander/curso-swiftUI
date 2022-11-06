@@ -11,6 +11,9 @@
 		04615B0F2912125B006749F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04615B0E2912125B006749F8 /* ContentView.swift */; };
 		04615B112912125D006749F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04615B102912125D006749F8 /* Assets.xcassets */; };
 		04615B142912125D006749F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04615B132912125D006749F8 /* Preview Assets.xcassets */; };
+		049DD9882918707C0019827B /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049DD9872918707C0019827B /* StateView.swift */; };
+		049DD98A2918723A0019827B /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049DD9892918723A0019827B /* BindingView.swift */; };
+		049DD98C29187B8A0019827B /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049DD98B29187B8A0019827B /* EnvironmentView.swift */; };
 		04A0281C2914B4C000119356 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0281B2914B4C000119356 /* MapView.swift */; };
 		04A0281E2914BA3B00119356 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0281D2914BA3B00119356 /* MainView.swift */; };
 		04C3ABFA2913598C0048C5EF /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C3ABF92913598C0048C5EF /* ImageView.swift */; };
@@ -26,6 +29,9 @@
 		04615B0E2912125B006749F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04615B102912125D006749F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04615B132912125D006749F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		049DD9872918707C0019827B /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		049DD9892918723A0019827B /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		049DD98B29187B8A0019827B /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
 		04A0281B2914B4C000119356 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		04A0281D2914BA3B00119356 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		04C3ABF92913598C0048C5EF /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				04615B0C2912125B006749F8 /* cursoSwiftUIApp.swift */,
+				049DD9862918703E0019827B /* propertyWrappers */,
 				04DF27E5291600CA007E4F09 /* data */,
 				04DF27E6291600D0007E4F09 /* views */,
 				04615B102912125D006749F8 /* Assets.xcassets */,
@@ -80,6 +87,16 @@
 				04615B132912125D006749F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		049DD9862918703E0019827B /* propertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				049DD9872918707C0019827B /* StateView.swift */,
+				049DD9892918723A0019827B /* BindingView.swift */,
+				049DD98B29187B8A0019827B /* EnvironmentView.swift */,
+			);
+			path = propertyWrappers;
 			sourceTree = "<group>";
 		};
 		04DF27E5291600CA007E4F09 /* data */ = {
@@ -175,7 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DF27EC29160342007E4F09 /* ListView.swift in Sources */,
+				049DD98A2918723A0019827B /* BindingView.swift in Sources */,
 				04C3ABFA2913598C0048C5EF /* ImageView.swift in Sources */,
+				049DD9882918707C0019827B /* StateView.swift in Sources */,
+				049DD98C29187B8A0019827B /* EnvironmentView.swift in Sources */,
 				04DF27E829160105007E4F09 /* Programmer.swift in Sources */,
 				04DF27EA291601DA007E4F09 /* RowView.swift in Sources */,
 				04A0281C2914B4C000119356 /* MapView.swift in Sources */,
